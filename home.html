@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="style/home.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   
   <title>mymovies</title>
@@ -16,20 +16,23 @@
             <input type="text" id="input" placeholder="Search...">
             <span  class="searchbar-icon"><i class="fas fa-search "></i></span>
           </div>
-         
-          <button class="butts">Home</button>
-          <button class="butts">Movies</button>
-          <button class="butts">Tools</button>
-       
+         <div id="buttons">
+         <a href="home.html"> <button class="butts">Home</button></a>
+          <a href="movies.html"><button class="butts">Movies</button></a>
+         <a href="tools.html"><button class="butts">Tools</button></a>
+        </div>
     </header>
   <main>
     <h1>Top Movies</h1>
     <section id="topm">
-        <div class="films"> <img src="assets/images/Screenshot 2025-01-27 162540.png"><p>Pinokio</p></div>
-        <div class="films"><img  src="assets/images/Screenshot 2025-01-27 201434.png"><p>Pinokio</p></div>
-        <div class="films"><img  src="assets/images/Screenshot 2025-01-27 201737.png"><p>Pinokio</p></div>
-        <div class="films"><img src="assets/images/Screenshot 2025-01-27 201830.png"><p>Pinokio</p></div>
+        <div class="films"> <img src="assets/images/top1.png"><p>Pinokio</p></div>
+        <div class="films"><img  src="assets/images/top2.png"><p>Moana 2</p></div>
+        <div class="films"><img  src="assets/images/top3.png"><p>the vord</p></div>
+        <div class="films"><img src="assets/images/top4.png"><p>the girl in the pool</p></div>
     </section>
+    <div>
+      <a href="movies.html"><button id="morebtn">More..</button></a>
+    </div>
   </main>
   
 </body>

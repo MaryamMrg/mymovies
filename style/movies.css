@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#logo{
+    width: 200px;
+    
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color: brown;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgb(42, 42, 42);
+    margin-top: 0;
+    top:0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.butts{
+    margin-top: 15px;
+    width: 70px;
+    height: 50%;
+    border: none; 
+    background-color: transparent;
+    cursor: pointer;
+    font-style: italic;
+    text-shadow:0px 3px 5px rgb(42, 42, 42) ;
+    font-size: 18px;
+    border-radius:30px ;
+    
+    
+}
+.butts:hover{
+    
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 3px 5px rgb(42, 42, 42);
+    text-decoration: none;
+}
+
+.searchbar-icon {
+    position: absolute;
+    left:  720px;
+    top: 30px;
+    background-color: transparent;
+    color: #5b0312;
+    cursor: pointer;
+  }
+  input[type=text] {
+    padding: 9px;
+    border: 6px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 30px;
+    box-shadow: 0px 3px 5px rgb(42, 42, 42);
+  }
+  body{
+    margin-top: 90px;
+    background-color:rgb(100, 95, 95);
+   
+  }
+  h2{
+    text-shadow:0px 3px 5px rgb(42, 42, 42) ;
+    font-size: 60px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+    
+  }
+  .all{
+    background-color: rgb(163, 80, 80);
+    height:250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 3px 5px rgb(42, 42, 42);
+    gap: 60px;
+  }
+  .movies{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-style: italic;
+    text-shadow:0px 3px 5px rgb(42, 42, 42) ;
+    font-size: 20px;
+
+  }
+.movies img{
+
+    width: 100px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(42, 42, 42);
+    cursor: pointer;
+
+}
+#mbox{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}

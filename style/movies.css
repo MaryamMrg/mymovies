@@ -124,3 +124,41 @@ header{
     align-items: center;
     margin-right: 10px;
 }
+@media (max-width: 768px) {
+  
+  section {
+      margin-top: 200px;
+      width: 90%;
+  }
+
+
+
+  .movies img{
+      width: 60px;
+      height: 80px;
+      
+  }
+
+  .movies {
+      width: 120%;
+  }
+  main{
+      margin-bottom: 200px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  p{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+      font-size: 28px;
+  }
+
+  section {
+      padding: 15px;
+  }
+}

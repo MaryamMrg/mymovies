@@ -245,8 +245,3 @@ function displayMovies() {
     });
 }
 
-function deleteMovie(index) {
-    movies.splice(index, 1);
-    localStorage.setItem('movies', JSON.stringify(movies));
-    displayMovies();
-}

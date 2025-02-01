@@ -4,57 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/movies.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <title>Movies</title>
 </head>
 <body>
     <header>
-       
-         <img id="logo" src="assets/images/movie-removebg-preview.png">
-            <div class="searchbar">
-                              <input type="text" id="input" placeholder="Search...">
-                              <span  class="searchbar-icon"><i class="fas fa-search "></i></span>
-            </div>
-            <div id="buttons">
-                        <a href="home.html"><button class="butts">Home</button></a>
-                           <a href="movies.html"><button class="butts">Movies</button></a>
-                                <a href="tools.html"><button class="butts">Tools</button></a>
-            </div>
-       
+        <img id="logo" src="assets/images/movie-removebg-preview.png">
+        <div class="searchbar">
+            <input type="text" id="inputsearch" placeholder="Search...">
+            <span class="searchbar-icon"><i class="fas fa-search"></i></span>
+        </div>
+        <div id="buttons">
+            <a href="home.html"><button class="butts">Home</button></a>
+            <a href="movies.html"><button class="butts">Movies</button></a>
+            <a href="tools.html"><button class="butts">Tools</button></a>
+        </div>
     </header>
+    
     <main>
-        <section class="all">
-            <h2>Romance</h2>
-            <div id="mbox">
-            <div class="movies"><img src="assets/images/romance five feet apart.png"><p>FIVE FEET APART</p></div>
-                <div class="movies"><img src="assets/images/Romance art of love.png"><p>ART OF LOVE</p></div>
-                    <div class="movies"><img src="assets/images/romance your fault.png"><p>YOUR FAULT</p></div>
-                        <div class="movies"><img src="assets/images/romance we live in time.png"><p>WE LIVE IN TIME</p></div>
-                        <div class="movies"><img src="assets/images/romance merry.png"><p>MERRY GENTELMEN</p></div>
-                    </div>
-                    
-        </section> 
-        <section class="all">
-            <h2>Action</h2>
-            <div id="mbox">
-                <div class="movies"><img src="assets/images/action alarum.png"><p>ALARUM</p></div>
-                    <div class="movies"><img src="assets/images/action desert dawn.png"><p>DESERT DAWN</p></div>
-                        <div class="movies"><img src="assets/images/action dirty angels.png"><p>DIERTY ANGELS</p></div>
-                            <div class="movies"><img src="assets/images/action drug hunter2.png"><p>DRUG HUNTER2</p></div>
-                            <div class="movies"><img src="assets/images/action kraven.png"><p>KRAVEN</p></div>
-                        </div>
-        </section>
-        <section class="all">
-            <h2>Horror</h2>
-            <div id="mbox">
-                <div class="movies"><img src="assets/images//horror funeral.png"><p>FUNERAL</p></div>
-                    <div class="movies"><img src="assets/images/horror grafted.png"><p>GRAFTED</p></div>
-                        <div class="movies"><img src="assets/images/horror nightbitch.png"><p>NIGHTBITCH</p></div>
-                            <div class="movies"><img src="assets/images/horror sakaratul.png"><p>SAKARATUL MAUT</p></div>
-                            <div class="movies"><img src="assets/images/killer influence.png"><p>KILLER INFLUENCE</p></div>
-                        </div>
+        <section class="movieslist" id="moviesList">
+           
         </section>
     </main>
-    
+
+    <script src="mymovies.js"></script>
 </body>
 </html>

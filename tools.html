@@ -4,44 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/tools.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <title>Tools</title>
 </head>
 <body>
     <header>
-        
         <img id="logo" src="assets/images/movie-removebg-preview.png">
-          <div class="searchbar">
-            <input type="text" id="input" placeholder="Search...">
-            <span  class="searchbar-icon"><i class="fas fa-search "></i></span>
-         </div>
-            <div id="buttons">
-          <a href="home.html"> <button class="butts">Home</button></a>
-          <a href="movies.html"><button class="butts">Movies</button></a>
-          <a href="tools.html"><button class="butts">Tools</button></a>
-         </div>
+        <div class="searchbar">
+            <input type="text" id="inputsearch" placeholder="Search...">
+            <span class="searchbar-icon"><i class="fas fa-search"></i></span>
+        </div>
+        <div id="buttons">
+            <a href="home.html"> <button class="butts">Home</button></a>
+            <a href="movies.html"><button class="butts">Movies</button></a>
+            <a href="tools.html"><button class="butts">Tools</button></a>
+        </div>
     </header>
     <main>
-        <h1>Tools</h2>
+        <h1>Tools</h1>
         <div id="boxs">
-         <section class="box">
-            <h2>ADD A MOVIE</h2>
-            <label >name</label><input  id="moviename" type="text" placeholder=" enter movie name">
-            <label >year</label><input id="movieyear" type="text" placeholder=" enter the year">
-            <label >type</label><input id="movietype" type="text" placeholder=" enter the type of movie">
-            <label >story</label><input id="moviestory" type="text" placeholder=" enter the story of the movie">
-            <button id="addbtn" type="button">Add</button>
-         </section>
-         <section class="box">
-            <h2>UPDATE A MOVIE</h2>
-            <label >name</label> <input type="text" placeholder=" enter movie name">
-            <label >year</label><input type="text" placeholder=" enter the year">
-            <label >type</label><input type="text" placeholder=" enter the type of movie">
-            <label >story</label><input type="text" placeholder=" enter the story of the movie">
-            <button id="modifybtn" type="button">Update</button>
-         </section>
+            <section class="box">
+                <h2>ADD A MOVIE</h2>
+                <label>Name</label><input id="moviename" type="text" placeholder="Enter movie name">
+                <label>Year</label><input id="movieyear" type="text" placeholder="Enter the year">
+                <label>Type</label><input id="movietype" type="text" placeholder="Enter the type of movie">
+                <label>Story</label><input id="moviestory" type="text" placeholder="Enter the story of the movie">
+                <input id="movieimg" type="file" accept="image/*">
+                <button id="addbtn" type="button">Add</button>
+            </section>
+            <section class="box">
+                <h2>UPDATE A MOVIE</h2>
+                <label>Name</label><input id="updatename" type="text" placeholder="Enter movie name">
+                <label>Year</label><input id="updateyear" type="text" placeholder="Enter the year">
+                <label>Type</label><input id="updatetype" type="text" placeholder="Enter the type of movie">
+                <label>Story</label><input id="updatestory" type="text" placeholder="Enter the story of the movie">
+                <button id="modifybtn" type="button">Update</button>
+            </section>
         </div>
     </main>
-    <script src="mymovies.js"></script>
+    <script src="script/mymovies.js"></script>
 </body>
 </html>

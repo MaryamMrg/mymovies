@@ -84,24 +84,29 @@ header{
     cursor: pointer;
     
   }
-  .all{
+.movieslist{
     background-color: rgb(163, 80, 80);
-    height:250px;
+    height:100%;
     margin-left: 40px;
     margin-right: 40px;
     display: flex;
     align-items: center;
+   flex-direction: column;
     border-radius: 30px;
     box-shadow: 0px 3px 5px rgb(42, 42, 42);
     gap: 60px;
   }
   .movies{
-   
+    height: 300PX;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
-    justify-content: space-between;
+    background-color: brown;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    border-radius: 10px;
+    gap: 10px;
     font-style: italic;
     text-shadow:0px 3px 5px rgb(42, 42, 42) ;
     font-size: 20px;
@@ -111,6 +116,7 @@ header{
 
     width: 100px; 
     height: 150px;
+    margin-top: 10PX;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0px 3px 5px rgb(42, 42, 42);
